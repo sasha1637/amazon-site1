@@ -1,0 +1,76 @@
+  <header class="header">
+    <div class="container container--header">
+      <a class="header__logo link" href="./index.html" data-aos="fade-right" data-aos-duration="1000">
+        <picture class="picture">
+          <source srcset="./images/header/logo@1x-desktop.png 1x, ./images/header/logo@2x-desktop.png 2x" media="(min-width: 1280px)">
+
+          <source srcset="./images/header/logo@1x-tablet.png 1x, ./images/header/logo@2x-tablet.png 2x" media="(min-width: 768px)">
+
+          <source srcset="./images/header/logo@1x-mobile.png 1x, ./images/header/logo@2x-mobile.png 2x" media="(max-width: 767px)">
+
+          <img src="./images/header/logo@1x-mobile.png" alt="логотип компании">
+        </picture>
+      </a>
+      <nav class="header__nav" data-aos="fade-down" data-aos-duration="1500">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link link" href="./index.html">Home</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#about">About us</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#howitsmade">How it's made?</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#product">Our products</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="menu-open" data-aos="fade-down" data-aos-duration="1500">
+        <svg class="icon-open" width="20" height="12">
+          <use href="./images/svg/sprite-project.svg#burger"></use>
+        </svg>
+      </button>
+      <button type="button" class="button button--header" data-aos="fade-left" data-aos-duration="1000" data-modal-open>Buy now
+        <svg class="button__icon" width="8" height="8">
+          <use href="./images/svg/sprite-project.svg#vector"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu is--hidden">
+        <button type="button" class="menu-close">
+          <svg class="icon-close" width="14" height="14">
+            <use href="./images/svg/sprite-project.svg#icon-close"></use>
+          </svg>
+        </button>
+        <button type="button" class="button button--menu">Buy now
+          <svg class="button__icon" width="8" height="8">
+            <use href="./images/svg/sprite-project.svg#vector"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu__nav">
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link link" href="./index.html">Home</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link link" href="#about">About us</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link link" href="#howitsmade">How it's made?</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link link" href="#product">Our products</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="mobile-menu__link link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
