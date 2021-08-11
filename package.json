@@ -1,12 +1,12 @@
 {
-  "name": "parcel-project-template",
+  "name": "amazon-site1",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sasha1637.github.io/command-26",
+  "homepage": "https://github.com/sasha1637/amazon-site1",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /command-26/"
+    "build": "parcel build src/*.html --public-url /amazon-site1/"
   },
    "repository": {
     "type": "git",
